@@ -19,6 +19,7 @@ public class EinsteinVisionControllerTest {
     static testMethod void testGetDataSets() {
         insert new Dreamhouse_Settings__c(Einstein_Vision_Email__c = 'user@host.com');
         Boolean success = true;
+        String religion ='r';
         try {
             ContentVersion cv = new ContentVersion(Title='einstein_platform', PathOnClient='/', VersionData=Blob.valueof('some key'));
             insert cv;
