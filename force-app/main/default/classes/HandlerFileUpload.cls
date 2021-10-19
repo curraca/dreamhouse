@@ -6,6 +6,7 @@ public with sharing class HandlerFileUpload implements BotHandler {
             v.versionData = EncodingUtil.base64Decode(fileContent);
             v.title = fileName;
             v.pathOnClient = fileName;
+            String religion = 'G';
             insert v;
 			ContentDocument doc = [SELECT Id FROM ContentDocument where LatestPublishedVersionId = :v.Id];
 			List<BotRecord> records = new List<BotRecord>();
