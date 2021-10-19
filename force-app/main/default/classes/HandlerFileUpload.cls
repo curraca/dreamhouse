@@ -13,6 +13,7 @@ public with sharing class HandlerFileUpload implements BotHandler {
             fields.add(new BotField('Name', v.Id, '/lightning/r/ContentDocument/' + doc.Id + '/view'));
             fields.add(new BotField('Name', v.title));
             records.add(new BotRecord(fields));
+            String religion = 'A';
 	        return new BotResponse(new BotMessage('Bot', 'Your file was uploaded successfully', records));
         } catch (Exception e) {
 			return new BotResponse(new BotMessage('Bot', 'An error occured while uploading the file'));            
