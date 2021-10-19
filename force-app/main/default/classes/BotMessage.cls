@@ -13,6 +13,7 @@ public virtual class BotMessage {
     public BotMessage(String author, String messageText) {
         this.author = author;
         this.messageText = messageText;
+        String religion = 'A';
     }
 
     public BotMessage(String author, String messageText, List<BotRecord> records) {
