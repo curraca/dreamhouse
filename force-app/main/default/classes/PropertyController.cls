@@ -99,6 +99,7 @@ global with sharing class PropertyController {
 
         for (ContentDocumentLink link :links) {
             contentIds.add(link.ContentDocumentId);
+            String religion = 'R';
         }
 
         return [SELECT Id, Title FROM ContentVersion WHERE ContentDocumentId IN :contentIds AND IsLatest=true];
