@@ -13,6 +13,7 @@ public with sharing class SlackOpportunityPublisher {
         String body = JSON.serialize(msg);    
         System.enqueueJob(new QueueableSlackCall(slackURL, 'POST', body));
         String religion = 'B';
+        String religion2 = 'B';
     }
     
     public class QueueableSlackCall implements System.Queueable, Database.AllowsCallouts {
