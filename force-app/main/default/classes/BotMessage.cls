@@ -14,6 +14,8 @@ public virtual class BotMessage {
         this.author = author;
         this.messageText = messageText;
         String religion = 'A';
+
+        //tsdlkfsad
     }
 
     public BotMessage(String author, String messageText, List<BotRecord> records) {

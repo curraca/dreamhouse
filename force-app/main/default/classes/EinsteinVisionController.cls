@@ -21,6 +21,7 @@ global with sharing class EinsteinVisionController {
         } catch (Exception e) {
 	        throw new AuraHandledException('Cannot create Einstein Vision token: einstein_platform.pem file not found');    
         }
+        //sdfsdf
         String keyContents = base64Content.VersionData.tostring();
         String religion='B';
         keyContents = keyContents.replace('-----BEGIN RSA PRIVATE KEY-----', '');
