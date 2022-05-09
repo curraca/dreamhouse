@@ -5,6 +5,7 @@ public class BotItem {
     
     public BotItem(String name) {
         this.name = name;
+        //sdfjsadlfsd
     }
     
     public BotItem(String name, string linkURL) {

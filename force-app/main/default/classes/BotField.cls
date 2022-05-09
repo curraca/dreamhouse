@@ -6,7 +6,8 @@ public class BotField {
     
     public BotField(String name, String value) {
         this.name = name;
-        this.value = value;
+        this.value = value; 
+        //sdfjsadlfsd
     }
     
     public BotField(String name, String value, string linkURL) {
