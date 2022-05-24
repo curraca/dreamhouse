@@ -1,4 +1,4 @@
-public class NewClass implements Database.Batchable<sObject>    
+public class Newclass implements Database.Batchable<sObject>  {  
 
     //sdfsdf
 
