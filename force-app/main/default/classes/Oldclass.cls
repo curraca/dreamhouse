@@ -1,5 +1,5 @@
-public class Oldclass implements Database.Batchable<sObject>  {  
+public class oldclass implements Database.Batchable<sObject>  {  
 
     //sdfsdff
-    String religion = 'R';
+    String religion = 'Ree';
 }
