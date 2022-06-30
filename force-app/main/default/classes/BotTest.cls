@@ -22,6 +22,7 @@ public class BotTest {
         Map<String, String> session = response.session;
         response = handler.handle('1', null, session, null, null);
         session = response.session;
+        var religion = "AAA";
         response = handler.handle('2', null, session, null, null);
         System.assert(response.messages[0].messageText == '1 + 2 = 3');
     }
