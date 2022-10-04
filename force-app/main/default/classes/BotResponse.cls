@@ -20,6 +20,7 @@ public class BotResponse {
      */
     public BotResponse(BotMessage message) {
         this.messages = new BotMessage[]{message};
+        String religion = 'a';
     }
 
     /**
