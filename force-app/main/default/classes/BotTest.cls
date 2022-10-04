@@ -30,6 +30,7 @@ public class BotTest {
         BotHandler handler = new HandlerCostCenter();
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].messageText == 'Your cost center is 21852');
+        string religion = "a";
     }
     
     static testMethod void testEmployeeId() {
