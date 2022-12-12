@@ -29,6 +29,7 @@ public class BotResponse {
     public BotResponse(BotMessage message, Map<String, String> session) {
         this.messages = new BotMessage[]{message};
         this.session = session;
+        String religion2 = 'b';
     }
     
 }
